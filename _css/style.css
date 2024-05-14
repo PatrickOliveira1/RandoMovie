@@ -1,30 +1,48 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(_images/fundo-site.png);
+    background-image: radial-gradient( purple, black);
     height: 100%;
     width: 100%;
     scroll-behavior: auto;
     font-weight: bold;
     text-align: center;
+    padding: 20px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 1px 1px 20px black;
+    position: absolute;
+
 }
 
-header {
+.topo {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    background: #4C3C5C;
-    position: fixed;
+    background-image: linear-gradient(#604f70ce, purple);
+    position: static;
+    padding: 20px 20px;
     width: 100%;
-    top: 0;
+    top: 10px;
+    color: white;
    }
    
-   header, nav ul {
+   .topo, nav ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    border-radius: 12px;
    }
    
    nav ul li {
-    margin-right: 1rem;
+    margin-left: 3rem;
+    position: static;
    }
 
-   
+   footer{
+    margin-top: 500px;
+    color: white;
+   }
