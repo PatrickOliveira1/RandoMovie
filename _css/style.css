@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-image: radial-gradient( purple, black);
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
     scroll-behavior: auto;
@@ -9,32 +14,34 @@ body {
     text-align: center;
     padding: 20px;
 }
-main{
+main {
     background-color: white;
-    margin: auto;
+    margin: 35px;
+    height: 250px;
     padding: 10px;
     border-radius: 20px;
     border-color: black;
     box-shadow: 1px 1px 20px black;
-    position: absolute;
+    text-align: center;
+}
 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topo {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(#604f70ce, purple);
     position: static;
-    padding: 20px 20px;
-    width: 100%;
-    top: 10px;
+    padding: 20px;
     color: white;
+    border-radius: 12px;
    }
    
    .topo, nav ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    border-radius: 12px;
    }
    
    nav ul li {
@@ -42,7 +49,6 @@ main{
     position: static;
    }
 
-   footer{
-    margin-top: 500px;
+   .footer{
     color: white;
    }
