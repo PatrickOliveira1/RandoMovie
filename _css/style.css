@@ -27,6 +27,7 @@ main {
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
 }
 
 .topo {
@@ -45,8 +46,21 @@ h1{
    }
    
    nav ul li {
-    margin-left: 3rem;
     position: static;
+    list-style: none;
+    padding: 15px 15px;
+    
+   }
+   nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+   }
+   nav ul li a:hover{
+    text-decoration: none;
+    background-color: #7E047F ;
+    padding: 10px;
+    border-radius: 10px;
+    animation-duration: 1s;
    }
 
    .footer{
