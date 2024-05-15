@@ -68,7 +68,7 @@ body {
    main {
     background-color: white;
     margin: auto;
-    height: 200px;
+    height: auto;
     padding: 10px;
     border-radius: 20px;
     border-color: black;
@@ -76,6 +76,13 @@ body {
     text-align: center;
 }
 
-   .footer{
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 5px 30px 10px #7f047f;
+}
+
+   footer{
     color: white;
    }
