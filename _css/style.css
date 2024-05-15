@@ -4,64 +4,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Freeman&family=Oswald:wght@200..700&display=swap');
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 body {
     background-image: radial-gradient( purple, black);
     font-weight: bold;
     text-align: center;
-
+    padding: 20px;
 }
 main {
     background-color: white;
+    margin: auto;
     height: 200px;
+    padding: 10px;
     border-radius: 20px;
     border-color: black;
     box-shadow: 1px 1px 20px black;
     text-align: center;
-    min-width: 400px;
-    max-width: 1000px;
-
-}
-
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
 }
 
 .topo {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(#604f70ce, purple);
-    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.363);
+    padding: 20px 20px;
     color: white;
     border-radius: 12px;
+    margin: auto;
     height: 100px;
-    width: 1200px;
    }
-   
-   .topo > h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   .topo > h1 {
+    font-family: Freeman, sans-serif;
     color: aliceblue;
     margin-block-start: 0px;
     margin-block-end: 0px;
     text-align: left;
     margin: left;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
 }
-.topo, nav ul {
+   
+   .topo nav ul {
     text-align: left;
     padding: 10px;
    }
-   nav ul li {
+   
+   nav ul li{
     display: inline;
     list-style: none;
-    padding: 10px 10px 10px 0px;    
+    padding: 10px 10px 0px 0px;
+    text-align: left;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
    }
+
    nav ul li a{
     text-decoration: none;
     color: aliceblue;
    }
+
    nav ul li a:hover{
     text-decoration: none;
     background-color: #7E047F ;
@@ -69,6 +70,7 @@ h1{
     border-radius: 10px;
     animation-duration: 1s;
    }
+
    .footer{
     color: white;
    }
