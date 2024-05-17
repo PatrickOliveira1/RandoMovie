@@ -55,6 +55,7 @@ body {
    nav ul li a{
     text-decoration: none;
     color: aliceblue;
+    transition-duration: 1s;
    }
 
    nav ul li a:hover{
@@ -74,6 +75,11 @@ body {
     border-color: black;
     box-shadow: 1px 1px 20px black;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 #aboutme {
