@@ -97,15 +97,20 @@ a {
 #minha-foto {
     width: 200px;
     height: 200px;
-    border-radius: 100%;
-    box-shadow: 0px 5px 30px 10px #7f047f;
+    box-shadow: 3px 3px 15px 5px #7f047f80;
+    margin-top: 2%;
+}
+#minha-foto-rick {
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 15px 5px #7f047f80;
     margin-top: 2%;
 }
 
 img {
     width: 25px;
     height: 25px;
-    border-radius: 100%;
+    border-radius: 50%;
     box-shadow: 0px 1px 8px 5px #7f047f69;
     margin-top: 2%;
     margin-right: 10px;
