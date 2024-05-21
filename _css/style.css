@@ -82,32 +82,27 @@ a {
     color: black;
 }
 
-#aboutme {
+.aboutme {
         text-align: justify;
         margin-top: 5%;
     }
 
-#aboutme, ul li {
+.aboutme, ul li {
         list-style: none;
         text-align: left;
         padding-left: 100px;
         padding-right: 100px;
     }
 
-#minha-foto {
+.foto-perfil {
     width: 200px;
     height: 200px;
     box-shadow: 3px 3px 15px 5px #7f047f80;
     margin-top: 2%;
-}
-#minha-foto-rick {
-    width: 200px;
-    height: 200px;
-    box-shadow: 3px 3px 15px 5px #7f047f80;
-    margin-top: 2%;
+    border-radius: 50%;
 }
 
-img {
+.sociais {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -117,5 +112,9 @@ img {
 }
 
    footer{
-    color: white;
+    background-color: lightgrey;
+    color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: small;
    }
