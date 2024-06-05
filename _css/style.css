@@ -25,17 +25,25 @@ body {
     position: relative;
 }
 
-   .topo > h1 {
-    font-family: Freeman, sans-serif;
-    color: aliceblue;
+.topo > h1 {
     margin-block-start: 0px;
     margin-block-end: 0px;
     text-align: left;
-    margin: left;
     padding: 10px 10px 10px 10px;
 }
+
+h1 > a.logo {
+    font-family: Freeman, sans-serif;
+    color: aliceblue;
+    margin: left;
+    text-decoration: none;
+}
+
+h1 > a.logo:hover {
+    font-size: 1.1em;
+}
    
-   .topo nav ul {
+.topo nav ul {
     text-align: right;
     padding: 0px 10px 10px 1px;
     top: 10px;
@@ -43,29 +51,29 @@ body {
     position: absolute;
 }
    
-   nav ul li{
+nav ul li{
     display: inline;
     justify-content: space-between;
     list-style: none;
     padding: 10px 5px 10px 5px;
     text-align: left;
-   }
+}
 
-   nav ul li a{
+nav ul li a{
     text-decoration: none;
     color: aliceblue;
-    transition-duration: 1s;
-   }
+    transition-duration: 500ms;
+}
 
-   nav ul li a:hover{
+nav ul li a:hover{
     text-decoration: none;
     background-color: #4c024c77 ;
     padding: 10px;
     border-radius: 10px;
     animation-duration: 1s;
-   }
+}
 
-   main {
+main {
     background-color: white;
     margin: auto;
     height: auto;
@@ -78,11 +86,21 @@ body {
 }
 
 a {
+    font-weight: bolder;
     text-decoration: none;
     color: black;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+a.linksocial {
+    text-decoration: none;
+    color: black;
+}
+
+a.linksocial:hover {
     color: white;
     background-color: #4c024c77;
     border-radius: 10px;
@@ -92,14 +110,14 @@ a:hover {
 .aboutme {
         text-align: justify;
         line-height: 20px;
-    }
+}
 
 .aboutme, ul li {
         list-style: none;
         text-align: justify;
         margin: auto;
         max-width: 400px;
-    }
+}
 
 .foto-perfil {
     width: 200px;
@@ -116,10 +134,6 @@ a:hover {
     box-shadow: 0px 1px 8px 5px #7f047f69;
     margin-top: 2%;
     margin-right: 10px;
-}
-
-section {
-    columns: 2;
 }
 
 footer{
