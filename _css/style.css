@@ -8,8 +8,8 @@
 }
 
 body {
-    background-image: radial-gradient(purple, black);
-    background-attachment: fixed;
+    background-image: radial-gradient(purple, #4c024c, black);
+    background-attachment: fixed;    
     scroll-behavior: auto;
     font-weight: bold;
     text-align: center;
