@@ -57,8 +57,41 @@
     border-radius: 60px;
 }
 
-.botoes {
-    columns: 2;
+#q1 {
+    position: relative;
+    left: -40px;
+    top: 40px;
+}
+
+#q2 {
+    position: relative;
+    left: -40px;
+    top: 40px;
+}
+
+#q3 {
+    position: relative;
+    left: -40px;
+    top: 40px;
+}
+
+#q4 {
+    position: relative;
+    left: 210px;
+    top: -150px;
+}
+
+#q5 {
+    position: relative;
+    left: 210px;
+    top: -150px;
+}
+
+#q6 {
+    position: relative;
+    left: 210px;
+    top: -150px;
+    margin-bottom: -50px;
 }
 
 .generos {

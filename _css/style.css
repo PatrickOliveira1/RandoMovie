@@ -96,11 +96,11 @@ a:hover {
 }
 
 a.linksocial {
-    text-decoration: none;
-    color: black;
+    font-weight: bolder;
 }
 
 a.linksocial:hover {
+    text-decoration: none;
     color: white;
     background-color: #4c024c77;
     border-radius: 10px;
@@ -108,15 +108,14 @@ a.linksocial:hover {
 }
 
 .aboutme {
-        text-align: justify;
-        line-height: 20px;
+    line-height: 20px;
 }
 
 .aboutme, ul li {
-        list-style: none;
-        text-align: justify;
-        margin: auto;
-        max-width: 400px;
+    list-style: none;
+    text-align: justify;
+    margin: auto;
+    max-width: 400px;
 }
 
 .foto-perfil {
