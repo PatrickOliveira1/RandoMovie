@@ -9,6 +9,7 @@
 
 body {
     background-image: radial-gradient(purple, #4c024c, black);
+    background-size: cover;
     background-attachment: fixed;    
     scroll-behavior: auto;
     font-weight: bold;
@@ -78,7 +79,7 @@ main {
     margin: auto;
     height: auto;
     max-width: 1200px;
-    padding: 15px;
+    padding: 15px 15px 0px 15px;
     border-radius: 20px;
     border-color: black;
     box-shadow: 1px 1px 20px black;
