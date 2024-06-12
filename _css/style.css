@@ -78,10 +78,10 @@ nav ul li a:hover{
     animation-duration: 1s;
 }
 
-main {
+main.mainindex {
     background-color: white;
     margin: auto;
-    height: auto;
+    height: 35vh;
     max-width: 1200px;
     padding: 15px 15px 200px 15px;
     border-radius: 20px;
@@ -90,14 +90,28 @@ main {
     text-align: center;
 }
 
+main.mainaboutme {
+    background-color: transparent;
+    margin: auto;
+    height: 100vh;
+    max-width: 1200px;
+    padding: 15px 15px 200px 15px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
 a {
     font-weight: bolder;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
     text-decoration: underline;
+    color: lightgrey;
+    border-radius: 10px;
 }
 
 a.linksocial {
@@ -106,10 +120,10 @@ a.linksocial {
 
 a.linksocial:hover {
     text-decoration: none;
-    color: white;
-    background-color: #4c024c77;
+    color: lightgrey;
     border-radius: 10px;
     padding: 5px;
+    font-size: 1.1em;
 }
 
 .aboutme {
