@@ -9,6 +9,11 @@
     padding: 0;
 }
 
+#container {
+    min-height:100%;
+    position:relative;
+ }
+
 body {
     background-image: radial-gradient(purple, #4c024c, black);
     background-size: cover;
@@ -17,6 +22,7 @@ body {
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    padding-bottom: 60px;
     margin-top: 50px;
 }
 
@@ -86,7 +92,8 @@ nav ul li a:hover{
 main.mainindex {
     background-color: white;
     margin: auto;
-    height: 35vh;
+    margin-bottom: 25px;
+    height: 95vh;
     max-width: 1200px;
     padding: 25px 15px 200px 15px;
     border-radius: 20px;
@@ -187,7 +194,6 @@ a.linksocial:hover {
 }
 
 footer.index {
-    display: inline-block;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -195,11 +201,13 @@ footer.index {
     background-color: lightgrey;
     color: black;
     font-size: small;
+    padding: 5px;
+    margin-top: 25px;
 }
 
 footer.notindex {
-    display: inline-block;
     position: absolute;
+    bottom: 0;
     left: 0;
     right: 0;
     background-color: lightgrey;

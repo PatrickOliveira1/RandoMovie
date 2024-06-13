@@ -63,7 +63,7 @@ section.botoes {
 }
 
 .generos {
-    display: inline-block;
+    display: inline;
     background-color: #ba81f79c;
     width: 125px;
     height: 50px;
