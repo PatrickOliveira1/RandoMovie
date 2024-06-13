@@ -102,6 +102,26 @@ main.mainaboutme {
     font-weight: lighter;
 }
 
+main.mainaboutme p {
+    line-height: 2em;
+}
+
+main.maincolaboradores {
+    background-color: transparent;
+    margin: auto;
+    height: 100vh;
+    max-width: 1200px;
+    padding: 15px 15px 200px 15px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+main.maincolaboradores p {
+    line-height: 2em;
+}
+
 a {
     font-weight: bolder;
     text-decoration: none;
