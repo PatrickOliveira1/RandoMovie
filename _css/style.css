@@ -139,6 +139,7 @@ main.maincolaboradores p {
     line-height: 2em;
 }
 
+
 a {
     font-weight: bolder;
     text-decoration: none;
@@ -165,18 +166,27 @@ a.linksocial:hover {
 
 .aboutme {
     line-height: 20px;
+    width: min(100% - 15px, 840px);
 }
 
 .aboutme, ul li {
     list-style: none;
     text-align: justify;
     margin: auto;
-    max-width: 400px;
+    max-width: 840px;
 }
 
 .foto-perfil {
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 3px 3px 15px 5px #7f047f80;
+    margin-top: 2%;
+    border-radius: 50%;
+}
+
+.foto-perfil-rick {
     width: 200px;
-    height: 200px;
+    height: 300px;
     box-shadow: 3px 3px 15px 5px #7f047f80;
     margin-top: 2%;
     border-radius: 50%;
@@ -189,7 +199,7 @@ a.linksocial:hover {
     box-shadow: 0px 1px 8px 5px #7f047f69;
     margin-top: 2%;
     margin-right: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
 }
 
@@ -203,6 +213,7 @@ footer.index {
     font-size: small;
     padding: 5px;
     margin-top: 25px;
+    margin-bottom: -360px;
 }
 
 footer.notindex {
@@ -213,4 +224,5 @@ footer.notindex {
     background-color: lightgrey;
     color: black;
     font-size: small;
+    margin-bottom: -450px;
 }
