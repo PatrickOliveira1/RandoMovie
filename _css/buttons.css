@@ -57,100 +57,30 @@
     border-radius: 60px;
 }
 
-#q1 {
-    position: relative;
-    left: -40px;
-    top: 40px;
-}
-
-#q2 {
-    position: relative;
-    left: -40px;
-    top: 40px;
-}
-
-#q3 {
-    position: relative;
-    left: -40px;
-    top: 40px;
-}
-
-#q4 {
-    position: relative;
-    left: 210px;
-    top: -150px;
-}
-
-#q5 {
-    position: relative;
-    left: 210px;
-    top: -150px;
-}
-
-#q6 {
-    position: relative;
-    left: 210px;
-    top: -150px;
-    margin-bottom: -50px;
+section.botoes {
+    max-width: 500px;
+    margin: auto;
 }
 
 .generos {
     display: inline-block;
-    margin-bottom: 25px;
-    width: 165px;
-    height: 37.5px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #570079ab;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
+    background-color: #ba81f79c;
+    width: 125px;
+    height: 50px;
     border-radius: 60px;
-    font-size: 16px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 5px 1px #570079;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
-.generos:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 60px;
-}
-
-.generos:active {
-    color: #000000
-}
-
-.generos:active:after {
-    background: transparent;
-}
-
-.generos:hover:before {
-    opacity: 1;
-}
-
-.generos:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(45deg, #570079, purple, rgb(151, 69, 151)) ;
-    left: 0;
-    top: 0;
-    border-radius: 60px;
+.generos:hover {
+    background-color: #570079;
+    color: white;
 }
 
 @keyframes glowing {
