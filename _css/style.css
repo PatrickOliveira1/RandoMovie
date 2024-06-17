@@ -24,6 +24,7 @@ body {
     padding: 20px;
     padding-bottom: 60px;
     margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .topo {
@@ -203,26 +204,58 @@ a.linksocial:hover {
     text-align: center;
 }
 
-footer.index {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+footer {
+    display: block;
     background-color: lightgrey;
     color: black;
     font-size: small;
-    padding: 5px;
+    padding: 10px;
     margin-top: 25px;
-    margin-bottom: -360px;
+    margin-bottom: -70px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
-footer.notindex {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: lightgrey;
+footer > p {
+    display: inline-block;
+    max-width: 300px;
+    margin: auto;
+    margin-right: 50px;
+}
+
+footer a {
+    background-color: transparent;
     color: black;
-    font-size: small;
-    margin-bottom: -450px;
+    border-radius: 10px;
+    display: flex;
+    padding: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-indent: 10px;
+    transition: 500ms;
+}
+
+#instagram:hover {
+    background-image: linear-gradient(to right, #AA11CE, #FFC501, #FE0684);
+    color: black;
+    border: 1px solid white;
+}
+
+#github:hover {
+    background-color: black;
+    border: 1px solid white;
+}
+
+#linkedin:hover {
+    background-color: #0A63BC;
+}
+
+.footersocials {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: rgba(169, 169, 169, 0.281);
+    border-radius: 10px;
+    width: 90px;
+    height: 80px;
+    padding: 10px;
 }
