@@ -54,6 +54,7 @@ h1 > a.logo {
     margin: left;
     text-decoration: none;
     transition-duration: 0.5s;
+    animation: neon 3s infinite
 }
 
 h1 > a.logo:hover {
@@ -258,4 +259,8 @@ footer a {
     width: 90px;
     height: 80px;
     padding: 10px;
+}
+
+@keyframes neon {
+    50% {text-shadow: 1px 1px 12px white;}
 }
