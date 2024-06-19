@@ -94,7 +94,7 @@ main.mainindex {
     margin: auto;
     margin-top: 5px;
     margin-bottom: 25px;
-    height: 100vh;
+    height: 100%;
     max-width: 1200px;
     padding: 25px;
     border-radius: 20px;
@@ -108,12 +108,13 @@ main.mainindex p {
 }
 
 main.mainaboutme {
+    display: block;
     background-color: transparent;
     margin: auto;
     margin-bottom: 50px;
-    height: 95vh;
+    height: 100%;
     max-width: 1200px;
-    padding: 15px 15px 200px 15px;
+    padding: 25px;
     border-radius: 20px;
     text-align: center;
     color: white;
@@ -127,7 +128,7 @@ main.mainaboutme p {
 main.maincolaboradores {
     background-color: transparent;
     margin: auto;
-    height: 95vh;
+    height: 100%;
     max-width: 1200px;
     padding: 15px 15px 200px 15px;
     border-radius: 20px;
