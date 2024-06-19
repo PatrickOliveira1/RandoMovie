@@ -83,6 +83,14 @@ section.botoes {
     color: white;
 }
 
+@media screen and (max-width: 450px){
+    .generos {
+        width: 95px;
+        height: 35px;
+        font-size: 0.7em;
+    }
+}
+
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
