@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.filme {
+    display: none;
+}
+
+.poster {
+    margin: auto;
+    margin-top: 25px;
+    background-color: lightgray;
+    width: 190px;
+    height: 270px;
+    padding: 10px;
+    border-radius: 10px;
+}

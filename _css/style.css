@@ -11,6 +11,7 @@
 }
 
 body {
+    background-color: #4c024c;
     background-image: url(/_images/fundo-site.jpg);
     background-size: cover;
     background-attachment: fixed;    
