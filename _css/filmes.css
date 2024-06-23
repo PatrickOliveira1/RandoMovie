@@ -2,14 +2,45 @@
 
 .filme {
     display: none;
+    padding-top: 25px;
 }
 
 .poster {
     margin: auto;
     margin-top: 25px;
-    background-color: lightgray;
+    background-color: #5d0070;
+    color: white;
     width: 190px;
     height: 270px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: -7px -7px 0px #ba81f79c inset;
+}
+
+.titulo-filme {
+    margin: auto;
+    width: 190px;
+    box-shadow: 0px -5px 0px #5d0070 inset;
+}
+
+.estrelas {
+    margin: auto;
+    width: 190px;
+    margin-top: 10px;
+}
+
+.sinopse {
+    margin: auto;
+    width: 400px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid #5d0070;
+    border-radius: 10px;
+    box-shadow: -7px -7px 0px #5d0070 inset;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.1em;
 }
