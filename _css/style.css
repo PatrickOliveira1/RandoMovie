@@ -18,7 +18,6 @@ body {
     scroll-behavior: auto;
     font-weight: bold;
     text-align: center;
-    backdrop-filter: blur(5px);
     overflow-x: hidden;
 }
 
