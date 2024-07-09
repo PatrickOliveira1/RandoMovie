@@ -370,6 +370,10 @@ nav input:checked ~ ul {
     li a:hover {
         padding: 15px;
     }
+    svg {
+        height: 70%;
+        width: 70%;
+    }
 }
 
 @keyframes neon {
