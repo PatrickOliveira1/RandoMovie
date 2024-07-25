@@ -275,6 +275,13 @@ footer a {
     padding: 10px;
 }
 
+svg {
+    min-height: 15%;
+    min-width: 15%;
+    max-height: 18%;
+    max-width: 18%;
+}
+
 /* Menu hamburguer abaixo */
 
 .hamburguer {
@@ -371,8 +378,25 @@ nav input:checked ~ ul {
         padding: 15px;
     }
     svg {
-        height: 70%;
-        width: 70%;
+        height: 30%;
+        width: 30%;
+    }
+    .footersocials {
+        margin: auto;
+    }
+    footer {
+        display: block;
+    }
+    footer a {
+        margin: auto;
+    }
+    footer > p {
+        margin: auto;
+    }
+    .copyright a {
+        margin: auto;
+        text-align: center;
+        justify-content: center;
     }
 }
 
