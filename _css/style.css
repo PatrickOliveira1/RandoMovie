@@ -100,12 +100,11 @@ nav ul li a:hover{
 .mainindex {
     flex: auto;
     background-color: rgb(255, 255, 255);
-    margin: auto;
     margin-top: 5px;
-    margin-bottom: 25px;
-    height: 100%;
+    margin-bottom: 5px;
+    height: 100vh;
     max-width: 800px;
-    padding: 25px 15px 300px 15px;
+    padding: 50px;
     border-radius: 20px;
     border-color: black;
     box-shadow: 1px 1px 20px black;
@@ -157,7 +156,7 @@ aside {
     background-color: rgb(255, 255, 255);
     margin-right: 10px;
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     max-width: 500px;
     padding: 25px;
     border-radius: 20px;
@@ -373,6 +372,9 @@ nav input:checked ~ ul {
 @media screen and (max-width: 750px){
     main {
         border-radius: 1px;
+    }
+    .mainindex {
+        height: 100%;
     }
     .hamburguer, .toggle-menu {
         display: block;

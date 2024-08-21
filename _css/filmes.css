@@ -63,27 +63,13 @@
         display: flex;
         width: 100%;
         position: relative;
-        transition: transform 0.5s ease;
-    }
-
-    .prev-arrow,
-    .next-arrow {
-    position: absolute;
-    top: 115%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    cursor: pointer;
-    }
-
-    .next-arrow {
-    right: 10px;
-    }
-
-    .prev-arrow {
-    left: 10px;
+        transform: translateX(0);
+        transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) ease;
+        will-change: transform;
     }
 
     .movie-item {
+        object-fit: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
