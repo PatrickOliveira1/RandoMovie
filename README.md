@@ -7,16 +7,15 @@ Este site tem como escopo base recomendar um filme aleatório ao apertar um bot�
 ## Progresso
 
 ### Progresso Geral
-![Barra de Progresso](https://geps.dev/progress/18?dangerColor=800000&warningColor=ff9900&successColor=006600)
+![Barra de Progresso](https://geps.dev/progress/100?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 ### Layout do Site
-![Barra de Progresso](https://geps.dev/progress/35?dangerColor=800000&warningColor=ff9900&successColor=006600)
-
-### Backend
-![Barra de Progresso](https://geps.dev/progress/01?dangerColor=800000&warningColor=ff9900&successColor=006600)
+![Barra de Progresso](https://geps.dev/progress/100?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 ### Integração com a API
-![Barra de Progresso](https://geps.dev/progress/50?dangerColor=800000&warningColor=ff9900&successColor=006600)
+![Barra de Progresso](https://geps.dev/progress/100?dangerColor=800000&warningColor=ff9900&successColor=006600)
+
+## Futuras atualizações ainda virão!
 
 ## Tecnologias Utilizadas
 
