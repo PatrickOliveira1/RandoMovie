@@ -93,7 +93,7 @@ nav ul li a:hover{
 
 .flexcolumn {
     display: flex;
-    max-width: 1300px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -101,9 +101,9 @@ nav ul li a:hover{
     flex: auto;
     background-color: rgb(255, 255, 255);
     margin-top: 5px;
-    margin-bottom: 5px;
-    height: 100vh;
-    max-width: 800px;
+    margin-bottom: 25px;
+    min-height: 100vh;
+    max-width: 1100px;
     padding: 50px;
     border-radius: 20px;
     border-color: black;
@@ -113,6 +113,21 @@ nav ul li a:hover{
 
 .mainindex p {
     line-height: 3em;
+}
+
+h1 > a.logo-body {
+    display: block;
+    font-family: Freeman, sans-serif;
+    font-size: 2em;
+    color: #4c024c;
+    text-shadow: 0px 0px 1px white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    animation: neonPurple 3s infinite
+}
+
+h1 > a.logo-body:hover {
+    animation: neonPurple 0.3s infinite
 }
 
 main.mainaboutme {
@@ -432,4 +447,7 @@ nav input:checked ~ ul {
 
 @keyframes neon {
     50% {text-shadow: 1px 1px 12px white;}
+}
+@keyframes neonPurple {
+    50% {text-shadow: 1px 1px 12px #AA11CE;}
 }
