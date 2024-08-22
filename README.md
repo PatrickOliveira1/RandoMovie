@@ -21,4 +21,4 @@ Este site tem como escopo base recomendar um filme aleatório ao apertar um bot�
 
 Este projeto está utilizando HTML, CSS e JavaScript como base.
 
-Acesse o site: https://randomovie-tau.vercel.app/index.html
+Acesse o site: [RandoMovie](https://rando-movie.vercel.app)
